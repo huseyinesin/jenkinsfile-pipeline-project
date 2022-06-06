@@ -13,21 +13,6 @@ pipeline {
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
-        
-       }
-       stage('run') {
-              steps {
-                  echo 'Change  Yourself!!!'
-                  sh 'python --version'
-                  sh 'python pipeline.py'
-              }
-          }
+        }
     }
 }
-
-
-
-
-
-
-
